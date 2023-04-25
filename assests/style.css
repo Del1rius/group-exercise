@@ -1,0 +1,56 @@
+body {
+    background-image: url(./background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+
+li:hover {
+    opacity: 0.5;
+    border: 1px solid;
+    color: white;
+    font-size: 35px;
+}
+
+li {
+    display: flex;
+    font-size: 30px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    margin: auto;
+    gap: 50px;
+    justify-content: center;
+}
+
+.imgs:hover {
+    opacity: 0.5;
+    width: 200px;
+    height: 200px;
+}
+
+.imgs {
+    display: flex;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+}
+
+footer div{
+    padding: 1.25rem;
+    z-index: 1;
+    text-align: center;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+footer img{
+    padding: 1.25rem;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
